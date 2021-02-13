@@ -1,9 +1,22 @@
 html {
-    background-color: #470B15}
+    background-color: #470B15;
+    font-family: 'Roboto Condensed', sans-serif; }
 
-html{
-    color: gainsboro;
-}
+html {
+    color: gainsboro; }
+
 a {
-    color:aliceblue
+    color:aliceblue; }
+
+nav {
+    background-color: #4a4e69;
+    color:aliceblue;
+    border: 1px solid }
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height:auto;
 }
