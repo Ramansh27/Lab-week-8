@@ -1,6 +1,6 @@
 html {
     background-color: #470B15;
-    font-family: 'Roboto Condensed', sans-serif; }
+    }
 
 html {
     color: gainsboro; }
@@ -8,14 +8,29 @@ html {
 a {
     color:aliceblue; }
 
+h1 {
+    margin-top: 60px;
+}
+
 nav {
+    overflow: hidden;
+    position: fixed;
+    top: 0;
     background-color: #4a4e69;
     color:aliceblue;
-    border: 1px solid }
+    border: 1px solid;
+    width: 100%; 
+    height: 30px;
+    }
+    
 
 img {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
     width: 50%;
-    height:auto;}
+    height:auto;
+    float:left;
+    margin-right: 20px;
+}
+
+
+
