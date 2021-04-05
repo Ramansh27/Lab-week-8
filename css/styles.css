@@ -1,6 +1,6 @@
 *{
     margin: 0;
-    padding: 0;
+    padding: 0rem;
     font-family: monospace;
 }
 
@@ -13,7 +13,7 @@
         's m m'
         'f f f';
     width: 100vw;
-    height: 100vw;
+    height: 100vh;
 
 }
 
@@ -37,10 +37,30 @@ footer{
     background-color: #DB504a;
 }
 
-li{
+.navbar{
+    display: inline-flex;
+    flex-direction: row;
     font-size: 3rem;
     margin-right: 2rem;
     color: #E5E5DC;
     list-style-type: none;
-    display: inline;
+}
+
+.introduction{
+    font-size: 1em;
+    list-style-type: circle;
+    margin-left: 1em;
+}
+
+.photo{
+    max-width: 25%;
+    max-height: auto;
+}
+
+h1{
+    font-size: 40px;
+}
+
+h2{
+    font-size: 25px;
 }
