@@ -20,6 +20,7 @@
 .header{
     grid-area: h;
     background-color: #DB504a;
+
 }
 
 .side{
@@ -41,26 +42,42 @@ footer{
     display: inline-flex;
     flex-direction: row;
     font-size: 3rem;
-    margin-right: 2rem;
+    padding-left: 20px;
+    margin-right: 1rem;
     color: #E5E5DC;
     list-style-type: none;
 }
 
 .introduction{
-    font-size: 1em;
+    font-size: 1.5em;
     list-style-type: circle;
-    margin-left: 1em;
+    margin-left: 20px;
 }
 
 .photo{
-    max-width: 25%;
+    display: block;
+    max-width: 35%;
     max-height: auto;
+    margin-left: auto;
+    margin-right:auto
 }
 
 h1{
     font-size: 40px;
+    margin-left: 20px;
 }
 
 h2{
     font-size: 25px;
+    margin-left: 20px;
 }
+
+.listitem
+{
+    font-size: 1.5em;
+    margin-left: 20px;
+    list-style-type: none;
+}
+
+
+
